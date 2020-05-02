@@ -25,6 +25,7 @@ Então("devo ser direcionado detalhes do produto") do
   expect(find('#compra')).to have_content 'COMPRAR'
 
 end
+
 #Seleciono Tamanho de Produto
 E("seleciono tamanho e clico em comprar") do
   find(:xpath, "/html/body/div[1]/div/div[2]/div/div/div[4]/div[1]/form/div[2]/div[3]/div[4]/dl/dd/div/ul/li[3]/a/span[1]").click
